@@ -73,7 +73,7 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-gold font-semibold uppercase tracking-wider text-sm">Get in Touch</span>
+          <span className="text-gold-400 font-semibold uppercase tracking-wider text-sm">Get in Touch</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mt-4 mb-6">
             Contact Us
           </h2>
@@ -94,7 +94,7 @@ const Contact = () => {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="text-gold mt-1">{info.icon}</div>
+                    <div className="text-gold-400 mt-1">{info.icon}</div>
                     <div>
                       <div className="text-sm font-semibold text-primary-900 mb-1">
                         {info.label}
@@ -109,7 +109,7 @@ const Contact = () => {
 
               <div className="mt-8 p-6 bg-primary-900 rounded-lg text-white">
                 <h4 className="font-semibold mb-2">Emergency Hotline</h4>
-                <p className="text-2xl font-bold text-gold">+234 800 000 0000</p>
+                <p className="text-2xl font-bold text-gold-400">+234 800 000 0000</p>
                 <p className="text-sm text-primary-200 mt-2">
                   Available 24/7 for urgent legal matters
                 </p>
@@ -211,7 +211,7 @@ const Contact = () => {
                 </p>
                 <button
                   type="submit"
-                  className="btn-primary bg-gold hover:bg-gold-dark border-none"
+                  className="btn-primary bg-gold hover:bg-gold-600 border-none"
                 >
                   Send Message
                 </button>

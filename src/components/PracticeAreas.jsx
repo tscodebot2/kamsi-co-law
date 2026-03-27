@@ -62,7 +62,7 @@ const PracticeAreas = () => {
     <section id="practice-areas" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-gold font-semibold uppercase tracking-wider text-sm">What We Do</span>
+          <span className="text-gold-400 font-semibold uppercase tracking-wider text-sm">What We Do</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mt-4 mb-6">
             Our Practice Areas
           </h2>
@@ -89,7 +89,7 @@ const PracticeAreas = () => {
               </p>
               <a
                 href="#contact"
-                className="inline-flex items-center mt-6 text-gold font-semibold hover:text-gold-dark transition-colors"
+                className="inline-flex items-center mt-6 text-gold-400 font-semibold hover:text-gold-400-dark transition-colors"
               >
                 Learn More
                 <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

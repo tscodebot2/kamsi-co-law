@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-400 hover:text-gold transition-colors"
+                className="text-gray-400 hover:text-gold-400 transition-colors"
                 aria-label="LinkedIn"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-gold transition-colors"
+                className="text-gray-400 hover:text-gold-400 transition-colors"
                 aria-label="Twitter"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -61,7 +61,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-gold transition-colors"
+                className="text-gray-400 hover:text-gold-400 transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -70,7 +70,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-gold transition-colors"
+                className="text-gray-400 hover:text-gold-400 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-gray-400 hover:text-gold transition-colors"
+                    className="text-gray-400 hover:text-gold-400 transition-colors"
                   >
                     {link.name}
                   </a>
@@ -105,7 +105,7 @@ const Footer = () => {
                 <li key={area}>
                   <a
                     href="#practice-areas"
-                    className="text-gray-400 hover:text-gold transition-colors"
+                    className="text-gray-400 hover:text-gold-400 transition-colors"
                   >
                     {area}
                   </a>
@@ -145,9 +145,9 @@ const Footer = () => {
               © {currentYear} Kamsi & Co. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-gold transition-colors">Terms of Service</a>
-              <a href="#" className="hover:text-gold transition-colors">Disclaimer</a>
+              <a href="#" className="hover:text-gold-400 transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-gold-400 transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-gold-400 transition-colors">Disclaimer</a>
             </div>
           </div>
           <div className="mt-4 text-center text-xs text-gray-500">

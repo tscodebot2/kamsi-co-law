@@ -56,7 +56,7 @@ const Team = () => {
     <section id="team" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-gold font-semibold uppercase tracking-wider text-sm">Our Team</span>
+          <span className="text-gold-400 font-semibold uppercase tracking-wider text-sm">Our Team</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mt-4 mb-6">
             Meet Our Attorneys
           </h2>
@@ -82,7 +82,7 @@ const Team = () => {
                   />
                 ) : (
                   <div className="text-center">
-                    <svg className="w-20 h-20 text-gold/50 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-20 h-20 text-gold-400/50 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                     </svg>
                     <p className="text-white font-semibold">{member.name}</p>
@@ -94,7 +94,7 @@ const Team = () => {
                 <h3 className="font-display text-xl font-bold text-primary-900">
                   {member.name}
                 </h3>
-                <p className="text-gold font-medium text-sm mb-2">{member.title}</p>
+                <p className="text-gold-400 font-medium text-sm mb-2">{member.title}</p>
                 <p className="text-sm text-gray-500 mb-4">{member.specialization} • {member.experience}</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   {member.bio}
@@ -102,7 +102,7 @@ const Team = () => {
                 <div className="flex space-x-3">
                   <a
                     href="#contact"
-                    className="text-primary-700 hover:text-gold transition-colors"
+                    className="text-primary-700 hover:text-gold-400 transition-colors"
                     title="Contact"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,7 +111,7 @@ const Team = () => {
                   </a>
                   <a
                     href="#"
-                    className="text-primary-700 hover:text-gold transition-colors"
+                    className="text-primary-700 hover:text-gold-400 transition-colors"
                     title="LinkedIn"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

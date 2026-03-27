@@ -17,14 +17,14 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <div className="inline-block border-b-2 border-gold pb-2 mb-6">
-              <span className="text-gold text-sm uppercase tracking-widest font-medium">
+              <span className="text-gold-400 text-sm uppercase tracking-widest font-medium">
                 Established 2005
               </span>
             </div>
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Justice, Integrity,{' '}
-              <span className="text-gold">Excellence</span>
+              <span className="text-gold-400">Excellence</span>
             </h1>
 
             <p className="text-lg md:text-xl text-primary-100 mb-8 max-w-xl">
@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
                 href="#contact"
-                className="btn-primary bg-gold hover:bg-gold-dark text-white border-none"
+                className="btn-primary bg-gold hover:bg-gold-600 text-white border-none"
               >
                 Schedule Consultation
               </a>
@@ -50,15 +50,15 @@ const Hero = () => {
 
             <div className="mt-12 grid grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-gold mb-2">500+</div>
+                <div className="text-3xl md:text-4xl font-bold text-gold-400 mb-2">500+</div>
                 <div className="text-sm text-primary-200">Cases Won</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-gold mb-2">18</div>
+                <div className="text-3xl md:text-4xl font-bold text-gold-400 mb-2">18</div>
                 <div className="text-sm text-primary-200">Years Experience</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-gold mb-2">98%</div>
+                <div className="text-3xl md:text-4xl font-bold text-gold-400 mb-2">98%</div>
                 <div className="text-sm text-primary-200">Success Rate</div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-primary-900/20 rounded-2xl transform rotate-3"></div>
             <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <div className="aspect-square rounded-lg bg-gradient-to-br from-primary-800 to-primary-900 flex items-center justify-center">
-                <svg className="w-32 h-32 text-gold opacity-50" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-32 h-32 text-gold-400 opacity-50" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 17.09 5.1 7.63 12 4.18zM12 22a10 10 0 0 1-10-10 10 10 0 0 1 10-10 10 10 0 0 1 10 10z"/>
                 </svg>
               </div>

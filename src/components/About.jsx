@@ -19,7 +19,7 @@ const About = () => {
             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
               <div className="aspect-[4/3] bg-gradient-to-br from-primary-800 to-primary-900 flex items-center justify-center">
                 <div className="text-center p-8">
-                  <svg className="w-24 h-24 text-gold mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-24 h-24 text-gold-400 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
                   </svg>
                   <p className="font-display text-2xl font-bold text-white">Kamsi & Co.</p>
@@ -31,7 +31,7 @@ const About = () => {
 
           {/* Content side */}
           <div>
-            <span className="text-gold font-semibold uppercase tracking-wider text-sm">About Us</span>
+            <span className="text-gold-400 font-semibold uppercase tracking-wider text-sm">About Us</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mt-4 mb-6">
               A Legacy of Legal Excellence
             </h2>
@@ -65,7 +65,7 @@ const About = () => {
 
             <a
               href="#contact"
-              className="inline-flex items-center mt-8 text-primary-700 font-semibold hover:text-gold transition-colors"
+              className="inline-flex items-center mt-8 text-primary-700 font-semibold hover:text-gold-400 transition-colors"
             >
               Get in Touch
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
